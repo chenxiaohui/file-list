@@ -25,3 +25,17 @@ add this in your .vimrc:
                 \'default':':e %'
                 \}
     "}}}
+
+### Usage
+    
+when met with a file path in your vim. like:
+    
+    /home/cxh/C++ Primer中文版（第4版）.pdf
+    /media/cxh/backup/work/doc/C++应用程序性能优化.pdf
+    
+you can put cursor on it and press <leader>co to open it with evince.
+
+supports line number linke: a.txt:11
+
+need visualmark.vim to have a strinking effect.
+
